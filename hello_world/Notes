@@ -1,0 +1,33 @@
+1.git
+2.which git :gives the path
+3.echo hello : echo is for printing
+4.whereis git : shows all the paths for git
+5.echo $PATH : $PATH is an environment variable. (All env variables are in caps and starts with a '$' sign)
+6.env : shows all the env variables
+7.export sneha=4708 : Adds an env variable sneha and gives a value 4708
+8.echo $sneha
+9.unset sneha : removes the env variable sneha
+10.ls : list files
+11.pwd : current directory
+12. whereis pwd
+13. which pwd
+14. cat /usr/bin/pwd : cat is to open a file
+15. clear : clears screen
+16.  mkdir sneha : make directory(create a folder)
+17:  cd sneha : change directory
+18.  git --help
+19.git clone https://github.com/kc-sneha/hello_world.git : clone a repository using the url which is copied  
+20.ls -l : shows wat files are there in the directory
+21. cd .. : changes directory to previous directory
+22.ls -l /home/smodeel : the third parameter shows which folder files to list
+23.ls -l /home/smodeel/sneha/hello_world/
+24.git status: shows the status
+25.git remote -v : displays all the repository urls
+26.  gedit : opens the notepad application
+27.history : shows all the used commands
+28.git add Notes : Adding file to repository
+29.git commit Notes: Committing the file "Notes" (the changes added to local machine)
+30.git push : Adding the changes to the origin repo
+31.gedit Notes : opens notes file
+32.git pull : updates local repo with origin repo
+33.Note:(VI instructions)After commiting, you shoud give a commit message. Press "i" to go to 'insert' mode and type the commit message. Then press 'Esc' button and save by pressing "Shift key + : wq".
