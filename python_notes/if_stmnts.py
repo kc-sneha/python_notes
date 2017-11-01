@@ -12,7 +12,7 @@ else:
 
 def who_do_u_know():
 	people = input("list of ppl u know")
-	ppl_list = [ppl.split() for ppl in people.split(",")]
+	ppl_list = [ppl.strip() for ppl in people.split(",")]
 	#ppl_list = people.split(",")
 	#ppl_widout_spaces = []
 	#for person in ppl_list:

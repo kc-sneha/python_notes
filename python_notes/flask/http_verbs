@@ -1,0 +1,15 @@
+webserver: piece of software designed to accept incoming web requests
+example:http://www.google.com , indicates that we are sending:
+
+GET/HTTP/1.1  (here '/' indicates the path. here it is home page)
+HOSt:www.google.com
+
+different http verbs:
+	GET:retrieve something (example: retrieving google page)
+	POST:receive data and use it.(it may create a new item. eg:data can b a piece of json)
+	PUT: make sure something is der.(may create if it is not der. if it is der it will update)
+	DELETE:remove something
+
+
+Rest principals:
+REST is stateless
